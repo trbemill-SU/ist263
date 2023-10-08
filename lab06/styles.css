@@ -1,0 +1,9 @@
+h1, h2 {
+    color:aquamarine;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+         }
+h1 { size: 1.0em}
+h2 {size:0.75em}
+.special {color: purple}
+.evenrow {background-color: blueviolet;}
+body {background-color: aliceblue;}

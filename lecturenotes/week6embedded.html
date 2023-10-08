@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Embedded CSS</title>
+    <style>
+        h1 {color:crimson;}
+        /* body selects everything */
+        body {
+            font-family:fantasy;
+            background-color: cadetblue;
+        }
+        /* in em 2 is twice the default size*/
+        p, h1, a { /* grouped selector*/
+            font-size: 200%;
+            font-weight:bolder;
+            background-color:darkgoldenrod;
+        }
+        p a {text-decoration: none;}
+        #secondpara {color:forestgreen;}
+        .yellow {color:yellow;}
+    </style>
+</head>
+<body>
+    <h1 class="yellow">CSS</h1>
+    <a class="yellow" href="https://www.amazon.com">Amazon</a>
+    <p><a href="https://www.ebay.com">Ebay</a>Alluminium>plastic Yoyos</p>
+    <!-- each value for id must be unique-->
+    <p id="secondpara">YO-YO MASTER. Welcom to the area throwers located in Syracuse NY.</p>
+
+</body>
+</html>
