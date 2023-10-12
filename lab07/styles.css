@@ -2,8 +2,9 @@
 body{
     background-color: #176B87;
 }
-table, p, {
-    color: #EEEEEE;
+table, p {
+    color: #64CCC5;
+    background-color: #053B50;
 }
 nav {
     color: #053B50;
