@@ -1,0 +1,41 @@
+
+body{
+    background-color: #176B87;
+}
+p {color: aliceblue;}
+.row1, .row2 {
+    color: #64CCC5;
+    background-color: #707f85; margin: 5px; border-radius: 1em;
+}
+nav, .nav1, .nav2 {
+    color: #64CCC5;
+    background-color: #64CCC5; margin: 5px; border-radius: 1em;
+}
+nav {
+    color: #053B50;
+    background-color: #64CCC5;
+}
+nav a:hover {background-color: #176B87;}
+nav {padding: 10px;}
+nav {margin: 30px;}
+h1, h2 {
+    color: #64CCC5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+         }
+h1 { size: 1.0em}
+h2 {size:0.75em}
+.special {color:aliceblue}
+.evenrow {background-color: blueviolet;}
+link{ color: #EEEEEE; }
+.motto {float: right;}
+
+.row1, .row2, .quick {display: flex; padding: 5px; }
+.row1 {text-align: left; flex: 1;}
+.banner{ max-width: 100%; }
+.row2 { display: flex; flex-wrap: wrap; }
+
+
+
+.nav1 {display: none;}
+@media only screen and (max-width: 800px) { .nav2 { background-color: #64CCC5;}}
+@media only screen and (min-width: 801px) { .nav2 {display: none;} .nav1, span {display: block;}}
