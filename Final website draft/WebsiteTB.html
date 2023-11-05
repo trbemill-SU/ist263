@@ -3,29 +3,52 @@
     <head>
         <meta charset="utf-8">
         <title>Todd's Car Maitnence Guide</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .special {display: flex; justify-content: center;}
+            .icon { width: 70%; height: 70%}
+            .skillsicon1, .skillsicon2 {display: flex; padding: 10px;}
+            .skillsicon1, .skillsicon2 {flex: 3; }
+
+
+        </style>
     </head>
+
     <body>
+        <nav>
+            <nav class="nav1">
+            <a href="WebsiteTB.html">Home</a>|
+            <a href="easypage.html">Easy Repairs</a>|
+            <a href="hardpage.html">Tough Fixes</a> 
+            </nav>
+            <nav class= "nav2">
+                <a href="WebsiteTB.html" >Home</a><br>
+                <a href="easypage.html">Easy Repairs</a><br>
+                <a href="hardpage.html">Tough Fixes</a> 
+            </nav>
+          </nav>
         <h1> Todd Bemiller's <strong>Car</strong> Maitnece Guide</h1>
-        <br> <hr>
+        <hr>
         <h2> Usage </h2>
         <p>This webesite is designed to help explain the maintnece of cars. </p>
         <br>
-        <h2>Parts list Easy</h2>
-        <ul>
-            <li>Oil change w/ filter</li>
-            <li>anti freeze</li>
-            <li>air filter</li>
-            <li></li>
-        </ul>
-        <h2>Parts change list difficult:</h2>
-        <ul>
-            <li>power stering</li>
-            <li>break fluid</li>
-        </ul>
-        <br>
-        <h3>Basic Engine layout</h3>
+        <h2>Easy Repairs</h2><br>
 
-        <imagie></imagie>
+        <div class="skillsformat">
+            <div class="skillsicon1">
+                <div><img src="../Images/oil.jpg" class="icon" alt="oil change picture"> <br>Oil Change</div>
+                <div><img src="../Images/tire change.webp" class="icon" alt="Tire Fix"><br>Tire Fix</div>
+                <div><img src="../Images/spark plug.jpg" class="icon" alt="Spark Plugs"><br>Spark Plugs</div>
+            </div>
+            <h2>Tough Fixes</h2><br>
+            <div class="skillsicon2">
+
+                <div><img src="../Images/anti freeze 2.jpg" class="icon" alt="anti freeze"><br>Anti Freeze</div>
+                <div><img src="../Images/break.jpg" class="icon" alt="Brake Fluid"> <br>Brake Fluid</div>
+                <div><img src="../Images/power stering.jpg" class="icon" alt="Power Steering Fluid"><br>Power Steering Fluid</div>
+            </div>
+
+        </div>
 
         <p>&copy; 2023</p>
     </body>
