@@ -17,10 +17,20 @@
         .skillsicon1, .skillsicon3 {display: flex;}
         .skillsicon1 {flex: 3; }
         .skillsicon2 {flex: 1; background-color:black; padding: 10px;}
+        .skip{ background-color: #ffbf00; 
+            padding: 5px; 
+            border: 1px solid #000000; 
+            text-decoration: none; 
+            position: absolute; /* positions an element relative to the top left corner of the viewport*/ 
+            top: 10px; 
+            left: -999px; /* push off left side*/ }
+
+            .skip:focus {left: 10px;}
     </style>
 </head>
 <body>
     <nav>
+      <a href="#main" class="skip" tabindex="1">Skip to Content</a><br>
         <nav class="nav1">
         <a href="webtb.html">Home</a>|
         <a href="easypage.html">Easy Repairs</a>|
@@ -34,7 +44,7 @@
       </nav>
 
       <h1>Easy Repairs</h1><hr>
-        <p><strong>Short Description</strong><br>
+        <p id="main"><strong>Short Description</strong><br>
         Here I would have the steps of doing the easier car fixes.  </p><br>
       <h2>Oil Change</h2>
 

@@ -17,13 +17,22 @@
             .skillsicon1, .skillsicon2 {flex: 3; }
             div {color:aliceblue}
             .icon {border-radius: 1em}
+            .skip{ background-color: #ffbf00; 
+            padding: 5px; 
+            border: 1px solid #000000; 
+            text-decoration: none; 
+            position: absolute; /* positions an element relative to the top left corner of the viewport*/ 
+            top: 10px; 
+            left: -999px; /* push off left side*/ }
 
+            .skip:focus {left: 10px;}
 
         </style>
     </head>
 
     <body>
         <nav>
+            <a href="#main" class="skip" tabindex="1">Skip to Content</a><br>
             <nav class="nav1">
             <a href="webtb.html">Home</a>|
             <a href="easypage.html">Easy Repairs</a>|
@@ -38,7 +47,7 @@
         <h1> Todd Bemiller's <strong>Car</strong> Maintenance Guide</h1>
         <hr>
         <h2> Usage </h2>
-        <p>This webesite is designed to help explain the maintenance of cars. </p>
+        <p id="main">This webesite is designed to help explain the maintenance of cars. </p>
         <br>
         <h2>Easy Repairs</h2><br>
 
